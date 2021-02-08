@@ -53,6 +53,7 @@
       font-weight:900;
       color: rgb(30, 5, 248);
       font-size: 120%;
+      margin-bottom: 4px;
   }
   #item-details {
     display: grid;
@@ -60,4 +61,19 @@
     grid-gap: 20px;
    
   }
- 
+  #catchError{
+      text-align: center;
+      font-size: 150%;
+      display: none;
+  }
+  .far{
+      font-size: 100px;
+      margin-bottom: 3%;
+      color: brown;
+  }
+  #backBtn{
+      font-size: 30px;
+      color: rgb(117, 39, 39);
+      padding: 1px 1px;
+      cursor: pointer;
+  }
